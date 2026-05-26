@@ -85,8 +85,8 @@ export default function Landing() {
             <div className="relative">
               <div className="w-26 h-26 rounded-2xl bg-[var(--accent)] flex
                 items-center justify-center shadow-cyber-lg shadow-[var(--accent)]">
-                {/* <Shield size={32} className="text-white" /> */}
-                <img src="../../public/athena-logo.png" alt="Athena Logo rounded-lg w-26 h-26" />
+                <Shield size={32} className="text-white" />
+                {/*<img src="../../public/athena-logo.png" alt="Athena Logo rounded-lg w-26 h-26" />*/}
               </div>
               <div className="absolute inset-0 rounded-2xl
                 opacity-20 blur-xl animate-pulse-slow" />
