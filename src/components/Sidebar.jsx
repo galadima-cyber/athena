@@ -15,9 +15,9 @@ const NAV = [
   { to: '/',          label: 'Home',      icon: Shield         },
   { to: '/upload',    label: 'Upload',    icon: Upload         },
   { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard},
-  { to: '/logs',      label: 'Log Table', icon: Table2         },
+  { to: '/logs',      label: 'Logs', icon: Table2         },
   { to: '/history',   label: 'History',   icon: History        },
-  { to: '/model',     label: 'ML Model',  icon: Brain          },
+  { to: '/model',     label: 'Models',  icon: Brain          },
 ];
 
 export default function Sidebar({ theme, toggleTheme }) {
